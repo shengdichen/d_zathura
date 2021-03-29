@@ -39,6 +39,19 @@ set completion-highlight-bg "#ede3f7"
 set completion-highlight-fg "#000000"
 # }}}
 
+# notification {{{
+set notification-bg "#ede3f7"
+set notification-fg "#000000"
+
+# e.g., when opening non-existent files
+set notification-error-bg "#ff79c7"
+set notification-error-fg "#000000"
+
+# e.g., when trying to open non-existent ToC
+set notification-warning-bg "#bd93f9"
+set notification-warning-fg "#000000"
+# }}}
+
 # recoloring {{{
 # do not recolor by default
 set recolor false
