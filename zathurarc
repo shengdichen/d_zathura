@@ -1,3 +1,7 @@
+# hide all GUI elements
+set guioptions ""
+
+
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
