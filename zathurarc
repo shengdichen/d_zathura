@@ -36,4 +36,7 @@ set incremental-search true
 # }}}
 
 
+# a less error-prone way of quitting
+unmap [normal] q
+map [normal] <C-q> quit
 
