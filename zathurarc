@@ -10,4 +10,12 @@ set window-title-basename true
 set window-title-page true
 # }}}
 
+# status-bar display settings {{{
+# display the full path
+set statusbar-basename false
+
+# use tilde-substitution
+set statusbar-home-tilde true
+# }}}
+
 
