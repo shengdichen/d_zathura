@@ -1,6 +1,20 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# recoloring {{{
+# do not recolor by default
+set recolor false
+
+set recolor-darkcolor "#ede3f7"
+set recolor-lightcolor "#000000"
+
+# true:     non black-or-white colors are preserved when recoloring
+# false:    recoloring gives inverted black-and-white
+set recolor-keephue true
+
+# true:     images are preserved
+set recolor-reverse-video false
+# }}}
 # scrolling {{{
 # step-size {{{
 set scroll-hstep 10
