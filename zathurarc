@@ -1,2 +1,13 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
+
+
+# window-title {{{
+# display only the file-name, i.e., truncate path
+set window-title-basename true
+
+# display reading progress
+set window-title-page true
+# }}}
+
+
