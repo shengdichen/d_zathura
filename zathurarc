@@ -20,6 +20,14 @@ set highlight-active-color "#ff79c6"
 set highlight-transparency 0.6
 # }}}
 
+# index/ToC {{{
+set index-bg "#000000"
+set index-fg "#ede3f7"
+
+set index-active-bg "#ede3f7"
+set index-active-fg "#000000"
+# }}}
+
 # recoloring {{{
 # do not recolor by default
 set recolor false
