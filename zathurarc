@@ -1,6 +1,14 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# clipboard {{{
+# copy to "primary" to avoid mangling "clipboard"
+set selection-clipboard primary
+
+# do not display a notification
+set selection-notification false
+# }}}
+
 
 # window-title {{{
 # display only the file-name, i.e., truncate path
