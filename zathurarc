@@ -57,6 +57,11 @@ set statusbar-bg "#000000"
 set statusbar-fg "#ede3f7"
 # }}}
 
+# input-bar (command-line) {{{
+set inputbar-bg "#000000"
+set inputbar-fg "#ede3f7"
+# }}}
+
 # recoloring {{{
 # do not recolor by default
 set recolor false
