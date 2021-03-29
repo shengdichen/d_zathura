@@ -1,6 +1,17 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# boundaries when scrolling {{{
+# after scrolling a full page
+set scroll-full-overlap 0
+
+# scrolling half or full page snaps to page boundaries
+set scroll-page-aware true
+
+# do not wrap at last page
+set scroll-wrap false
+# }}}
+
 # history {{{
 # save history only when exiting a document
 set continuous-hist-save false
