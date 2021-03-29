@@ -10,6 +10,7 @@ set window-title-basename true
 set window-title-page true
 # }}}
 
+# the two bars at the vertical bottom {{{
 # status-bar display settings {{{
 # display the full path
 set statusbar-basename false
@@ -32,5 +33,7 @@ set show-recent 0
 
 set incremental-search true
 # }}}
+# }}}
+
 
 
