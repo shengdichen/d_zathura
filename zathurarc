@@ -28,6 +28,17 @@ set index-active-bg "#ede3f7"
 set index-active-fg "#000000"
 # }}}
 
+# completion {{{
+# all non-selected items
+set completion-bg "#000000"
+set completion-fg "#ede3f7"
+
+
+# the selected item
+set completion-highlight-bg "#ede3f7"
+set completion-highlight-fg "#000000"
+# }}}
+
 # recoloring {{{
 # do not recolor by default
 set recolor false
