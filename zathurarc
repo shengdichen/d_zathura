@@ -5,6 +5,12 @@ set guioptions ""
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# with nothing to separate the pages, everything reads like a long scroll
+set page-padding 0
+
+# when moving across pages, land at pages' beginning, not center
+set vertical-center false
+
 # coloring {{{
 # general {{{
 # the bezels on both sides when viewing vertically smaller files
