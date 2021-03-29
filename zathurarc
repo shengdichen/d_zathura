@@ -18,4 +18,19 @@ set statusbar-basename false
 set statusbar-home-tilde true
 # }}}
 
+# input-bar (command-line) {{{
+# completion {{{
+# number of suggestions at completion
+set n-completion-items 10
+
+set show-directories true
+set show-hidden true
+
+# do not suggest recent files
+set show-recent 0
+# }}}
+
+set incremental-search true
+# }}}
+
 
