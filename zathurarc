@@ -1,1 +1,2 @@
-set font "ProggyCrossed 13"
+# requires a font with bold and italics compatibility
+set font "Source Code Variable 13"
