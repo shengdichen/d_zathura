@@ -1,6 +1,14 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# general {{{
+# the bezels on both sides when viewing vertically smaller files
+set default-bg "#211b25"
+
+# color of cursor
+set default-fg "#ede3f7"
+# }}}
+
 # recoloring {{{
 # do not recolor by default
 set recolor false
