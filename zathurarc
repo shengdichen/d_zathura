@@ -171,3 +171,14 @@ set incremental-search true
 unmap [normal] q
 map [normal] <C-q> quit
 
+# zoom {{{
+# set default zoom level?
+# easier to hit, use for zooming in instead
+unmap [normal] =
+map [normal] = zoom in
+
+# set to default zoom
+unmap [normal] +
+map [normal] + zoom best_fit
+# }}}
+
