@@ -102,6 +102,11 @@ unmap [normal] J
 unmap [normal] K
 map [normal] J feedkeys "jjjj"
 map [normal] K feedkeys "kkkk"
+
+unmap [normal] H
+unmap [normal] L
+map [normal] H feedkeys "hhhhhh"
+map [normal] L feedkeys "llllll"
 # }}}
 
 # boundaries when scrolling {{{
