@@ -1,6 +1,85 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# coloring {{{
+# general {{{
+# the bezels on both sides when viewing vertically smaller files
+set default-bg "#211b25"
+
+# color of cursor
+set default-fg "#ede3f7"
+# }}}
+
+# highlighting {{{
+# selection & all non-active search results
+set highlight-color "#635769"
+
+# the active search result
+set highlight-active-color "#ff79c6"
+
+# allow some transparency (higher value means text less visible)
+set highlight-transparency 0.6
+# }}}
+
+# index/ToC {{{
+set index-bg "#000000"
+set index-fg "#ede3f7"
+
+set index-active-bg "#ede3f7"
+set index-active-fg "#000000"
+# }}}
+
+# completion {{{
+# all non-selected items
+set completion-bg "#000000"
+set completion-fg "#ede3f7"
+
+
+# the selected item
+set completion-highlight-bg "#ede3f7"
+set completion-highlight-fg "#000000"
+# }}}
+
+# notification {{{
+set notification-bg "#ede3f7"
+set notification-fg "#000000"
+
+# e.g., when opening non-existent files
+set notification-error-bg "#ff79c7"
+set notification-error-fg "#000000"
+
+# e.g., when trying to open non-existent ToC
+set notification-warning-bg "#bd93f9"
+set notification-warning-fg "#000000"
+# }}}
+
+# status-bar {{{
+set statusbar-bg "#000000"
+set statusbar-fg "#ede3f7"
+# }}}
+
+# input-bar (command-line) {{{
+set inputbar-bg "#000000"
+set inputbar-fg "#ede3f7"
+# }}}
+# }}}
+
+# recoloring {{{
+# do not recolor by default
+set recolor false
+
+set recolor-darkcolor "#ede3f7"
+set recolor-lightcolor "#000000"
+
+# true:     non black-or-white colors are preserved when recoloring
+# false:    recoloring gives inverted black-and-white
+set recolor-keephue true
+
+# true:     images are preserved
+set recolor-reverse-video false
+# }}}
+
+
 # scrolling {{{
 # step-size {{{
 set scroll-hstep 10
