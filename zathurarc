@@ -1,6 +1,45 @@
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
 
+# scrolling {{{
+# step-size {{{
+set scroll-hstep 10
+set scroll-step 50
+
+unmap [normal] J
+unmap [normal] K
+map [normal] J feedkeys "jjjj"
+map [normal] K feedkeys "kkkk"
+# }}}
+
+# boundaries when scrolling {{{
+# after scrolling a full page
+set scroll-full-overlap 0
+
+# scrolling half or full page snaps to page boundaries
+set scroll-page-aware true
+
+# do not wrap at last page
+set scroll-wrap false
+# }}}
+# }}}
+
+# history {{{
+# save history only when exiting a document
+set continuous-hist-save false
+
+# do not save bookmarks and input history
+set database "null"
+# }}}
+
+# clipboard {{{
+# copy to "primary" to avoid mangling "clipboard"
+set selection-clipboard primary
+
+# do not display a notification
+set selection-notification false
+# }}}
+
 
 # window-title {{{
 # display only the file-name, i.e., truncate path
@@ -36,4 +75,7 @@ set incremental-search true
 # }}}
 
 
+# a less error-prone way of quitting
+unmap [normal] q
+map [normal] <C-q> quit
 
