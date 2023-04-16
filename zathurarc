@@ -1,5 +1,16 @@
+# display customization {{{
+# hide all GUI elements
+set guioptions ""
+
+
 # requires a font with bold and italics compatibility
 set font "Source Code Variable 13"
+
+# with nothing to separate the pages, everything reads like a long scroll
+set page-padding 0
+
+# when moving across pages, land at pages' beginning, not center
+set vertical-center false
 
 # coloring {{{
 # general {{{
@@ -78,6 +89,8 @@ set recolor-keephue true
 # true:     images are preserved
 set recolor-reverse-video false
 # }}}
+# }}}
+
 
 
 # scrolling {{{
@@ -89,6 +102,11 @@ unmap [normal] J
 unmap [normal] K
 map [normal] J feedkeys "jjjj"
 map [normal] K feedkeys "kkkk"
+
+unmap [normal] H
+unmap [normal] L
+map [normal] H feedkeys "hhhhhh"
+map [normal] L feedkeys "llllll"
 # }}}
 
 # boundaries when scrolling {{{
@@ -157,4 +175,15 @@ set incremental-search true
 # a less error-prone way of quitting
 unmap [normal] q
 map [normal] <C-q> quit
+
+# zoom {{{
+# set default zoom level?
+# easier to hit, use for zooming in instead
+unmap [normal] =
+map [normal] = zoom in
+
+# set to default zoom
+unmap [normal] +
+map [normal] + zoom best_fit
+# }}}
 
