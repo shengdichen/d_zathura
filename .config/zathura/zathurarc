@@ -187,3 +187,4 @@ unmap [normal] +
 map [normal] + zoom best_fit
 # }}}
 
+# vim: filetype=conf foldmethod=marker
