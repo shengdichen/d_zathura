@@ -2,7 +2,6 @@
 # hide all GUI elements
 set guioptions ""
 
-
 # requires a font with bold and italics compatibility
 set font "Source Code Pro 13"
 
@@ -44,7 +43,6 @@ set index-active-fg "#000000"
 # all non-selected items
 set completion-bg "#000000"
 set completion-fg "#ede3f7"
-
 
 # the selected item
 set completion-highlight-bg "#ede3f7"
@@ -91,8 +89,6 @@ set recolor-reverse-video false
 # }}}
 # }}}
 
-
-
 # scrolling {{{
 # step-size {{{
 set scroll-hstep 10
@@ -137,7 +133,6 @@ set selection-clipboard primary
 set selection-notification false
 # }}}
 
-
 # window-title {{{
 # display only the file-name, i.e., truncate path
 set window-title-basename true
@@ -170,7 +165,6 @@ set show-recent 0
 set incremental-search true
 # }}}
 # }}}
-
 
 # a less error-prone way of quitting
 unmap [normal] q
