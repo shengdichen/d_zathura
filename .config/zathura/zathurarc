@@ -177,14 +177,14 @@ unmap [normal] q
 map [normal] <C-q> quit
 
 # zoom {{{
-# set default zoom level?
-# easier to hit, use for zooming in instead
-unmap [normal] =
-map [normal] = zoom in
-
-# set to default zoom
+unmap [normal] -
+map [normal] _ zoom out
 unmap [normal] +
-map [normal] + zoom best_fit
+map [normal] + zoom in
+
+# (re)set to default zoom-level
+unmap [normal] =
+map [normal] = zoom best_fit
 # }}}
 
 # vim: filetype=conf foldmethod=marker
