@@ -54,7 +54,7 @@ set notification-bg "#efe3fb"
 set notification-fg "#000000"
 
 # e.g., when opening non-existent files
-set notification-error-bg "#ff79c7"
+set notification-error-bg "#ef77c7"
 set notification-error-fg "#000000"
 
 # e.g., when trying to open non-existent ToC
