@@ -58,7 +58,7 @@ set notification-error-bg "#ef1757"
 set notification-error-fg "#000000"
 
 # e.g., when trying to open non-existent ToC
-set notification-warning-bg "#bd93f9"
+set notification-warning-bg "#efd767"
 set notification-warning-fg "#000000"
 # }}}
 
