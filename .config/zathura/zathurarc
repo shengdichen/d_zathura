@@ -17,7 +17,7 @@ set vertical-center false
 set default-bg "#2b272f"
 
 # color of cursor
-set default-fg "#ede3f7"
+set default-fg "#efe3fb"
 # }}}
 
 # highlighting {{{
@@ -33,24 +33,24 @@ set highlight-transparency 0.6
 
 # index/ToC {{{
 set index-bg "#000000"
-set index-fg "#ede3f7"
+set index-fg "#efe3fb"
 
-set index-active-bg "#ede3f7"
+set index-active-bg "#efe3fb"
 set index-active-fg "#000000"
 # }}}
 
 # completion {{{
 # all non-selected items
 set completion-bg "#000000"
-set completion-fg "#ede3f7"
+set completion-fg "#efe3fb"
 
 # the selected item
-set completion-highlight-bg "#ede3f7"
+set completion-highlight-bg "#efe3fb"
 set completion-highlight-fg "#000000"
 # }}}
 
 # notification {{{
-set notification-bg "#ede3f7"
+set notification-bg "#efe3fb"
 set notification-fg "#000000"
 
 # e.g., when opening non-existent files
@@ -64,12 +64,12 @@ set notification-warning-fg "#000000"
 
 # status-bar {{{
 set statusbar-bg "#000000"
-set statusbar-fg "#ede3f7"
+set statusbar-fg "#efe3fb"
 # }}}
 
 # input-bar (command-line) {{{
 set inputbar-bg "#000000"
-set inputbar-fg "#ede3f7"
+set inputbar-fg "#efe3fb"
 # }}}
 # }}}
 
@@ -77,7 +77,7 @@ set inputbar-fg "#ede3f7"
 # do not recolor by default
 set recolor false
 
-set recolor-darkcolor "#ede3f7"
+set recolor-darkcolor "#efe3fb"
 set recolor-lightcolor "#000000"
 
 # true:     non black-or-white colors are preserved when recoloring
