@@ -22,7 +22,7 @@ set default-fg "#efe3fb"
 
 # highlighting {{{
 # selection & all non-active search results
-set highlight-color "#635769"
+set highlight-color "#97879f"
 
 # the active search result
 set highlight-active-color "#ef77c7"
