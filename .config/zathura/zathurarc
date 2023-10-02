@@ -14,7 +14,7 @@ set vertical-center false
 # coloring {{{
 # general {{{
 # the bezels on both sides when viewing vertically smaller files
-set default-bg "#211b25"
+set default-bg "#2b272f"
 
 # color of cursor
 set default-fg "#ede3f7"
