@@ -25,7 +25,7 @@ set default-fg "#efe3fb"
 set highlight-color "#635769"
 
 # the active search result
-set highlight-active-color "#ff79c6"
+set highlight-active-color "#ef77c7"
 
 # allow some transparency (higher value means text less visible)
 set highlight-transparency 0.6
