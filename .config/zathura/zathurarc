@@ -3,7 +3,7 @@
 set guioptions ""
 
 # requires a font with bold and italics compatibility
-set font "Source Code Pro 13"
+set font "Shevska 13"
 
 # with nothing to separate the pages, everything reads like a long scroll
 set page-padding 0
