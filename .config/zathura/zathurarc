@@ -5,20 +5,17 @@ set guioptions ""
 # requires a font with bold and italics compatibility
 set font "Shevska 13"
 
-# with nothing to separate the pages, everything reads like a long scroll
+# no padding between pages: read it like a long scroll
 set page-padding 0
 
 # when moving across pages, land at pages' beginning, not center
 set vertical-center false
 
 # coloring {{{
-# general {{{
-# the bezels on both sides when viewing vertically smaller files
+# non file-display area (if file thinner and/or shorter)
 set default-bg "#2b272f"
 
-# color of cursor
 set default-fg "#efe3fb"
-# }}}
 
 # highlighting {{{
 # selection & all non-active search results
@@ -62,15 +59,12 @@ set notification-warning-bg "#efd767"
 set notification-warning-fg "#000000"
 # }}}
 
-# status-bar {{{
 set statusbar-bg "#000000"
 set statusbar-fg "#efe3fb"
-# }}}
 
-# input-bar (command-line) {{{
+# commandline-mode
 set inputbar-bg "#000000"
 set inputbar-fg "#efe3fb"
-# }}}
 # }}}
 
 # recoloring {{{
@@ -80,8 +74,9 @@ set recolor false
 set recolor-darkcolor "#efe3fb"
 set recolor-lightcolor "#000000"
 
-# true:     non black-or-white colors are preserved when recoloring
-# false:    recoloring gives inverted black-and-white
+# NOTE:
+#   true := non black-or-white colors are preserved when recoloring
+#   false := recoloring gives inverted black-and-white
 set recolor-keephue true
 
 # true:     images are preserved
@@ -143,7 +138,7 @@ set window-title-page true
 
 # the two bars at the vertical bottom {{{
 # status-bar display settings {{{
-# display the full path
+# display full-path
 set statusbar-basename false
 
 # use tilde-substitution
@@ -151,8 +146,6 @@ set statusbar-home-tilde true
 # }}}
 
 # input-bar (command-line) {{{
-# completion {{{
-# number of suggestions at completion
 set n-completion-items 10
 
 set show-directories true
@@ -160,13 +153,11 @@ set show-hidden true
 
 # do not suggest recent files
 set show-recent 0
-# }}}
 
 set incremental-search true
 # }}}
 # }}}
 
-# a less error-prone way of quitting
 unmap [normal] q
 map [normal] <C-q> quit
 
