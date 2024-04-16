@@ -3,85 +3,77 @@
 set guioptions ""
 
 # requires a font with bold and italics compatibility
-set font "Source Code Pro 13"
+set font "Shevska 13"
 
-# with nothing to separate the pages, everything reads like a long scroll
+# no padding between pages: read it like a long scroll
 set page-padding 0
 
 # when moving across pages, land at pages' beginning, not center
 set vertical-center false
 
 # coloring {{{
-# general {{{
-# the bezels on both sides when viewing vertically smaller files
-set default-bg "#211b25"
+# non file-display area (if file thinner and/or shorter)
+set default-bg "#2b272f"
 
-# color of cursor
-set default-fg "#ede3f7"
-# }}}
+set default-fg "#efe3fb"
 
 # highlighting {{{
 # selection & all non-active search results
-set highlight-color "#635769"
+set highlight-color "#97879f"
 
 # the active search result
-set highlight-active-color "#ff79c6"
-
-# allow some transparency (higher value means text less visible)
-set highlight-transparency 0.6
+set highlight-active-color "#ef77c7"
 # }}}
 
 # index/ToC {{{
 set index-bg "#000000"
-set index-fg "#ede3f7"
+set index-fg "#efe3fb"
 
-set index-active-bg "#ede3f7"
+set index-active-bg "#efe3fb"
 set index-active-fg "#000000"
 # }}}
 
 # completion {{{
 # all non-selected items
 set completion-bg "#000000"
-set completion-fg "#ede3f7"
+set completion-fg "#efe3fb"
 
 # the selected item
-set completion-highlight-bg "#ede3f7"
+set completion-highlight-bg "#efe3fb"
 set completion-highlight-fg "#000000"
 # }}}
 
 # notification {{{
-set notification-bg "#ede3f7"
+set notification-bg "#efe3fb"
 set notification-fg "#000000"
 
 # e.g., when opening non-existent files
-set notification-error-bg "#ff79c7"
+set notification-error-bg "#ef1757"
 set notification-error-fg "#000000"
 
 # e.g., when trying to open non-existent ToC
-set notification-warning-bg "#bd93f9"
+set notification-warning-bg "#efd767"
 set notification-warning-fg "#000000"
 # }}}
 
-# status-bar {{{
 set statusbar-bg "#000000"
-set statusbar-fg "#ede3f7"
-# }}}
+set statusbar-fg "#efe3fb"
 
-# input-bar (command-line) {{{
+# commandline-mode
 set inputbar-bg "#000000"
-set inputbar-fg "#ede3f7"
-# }}}
+set inputbar-fg "#efe3fb"
 # }}}
 
 # recoloring {{{
 # do not recolor by default
 set recolor false
 
-set recolor-darkcolor "#ede3f7"
+set recolor-darkcolor "#efe3fb"
 set recolor-lightcolor "#000000"
 
-# true:     non black-or-white colors are preserved when recoloring
-# false:    recoloring gives inverted black-and-white
+# NOTE:
+#   true := non black-or-white colors are preserved when recoloring
+#   false := recoloring gives inverted black-and-white
 set recolor-keephue true
 
 # true:     images are preserved
@@ -126,8 +118,8 @@ set database "null"
 # }}}
 
 # clipboard {{{
-# copy to "primary" to avoid mangling "clipboard"
-set selection-clipboard primary
+# copy to (ctrl-v NOT mouse-middle) clipboard
+set selection-clipboard clipboard
 
 # do not display a notification
 set selection-notification false
@@ -143,7 +135,7 @@ set window-title-page true
 
 # the two bars at the vertical bottom {{{
 # status-bar display settings {{{
-# display the full path
+# display full-path
 set statusbar-basename false
 
 # use tilde-substitution
@@ -151,8 +143,6 @@ set statusbar-home-tilde true
 # }}}
 
 # input-bar (command-line) {{{
-# completion {{{
-# number of suggestions at completion
 set n-completion-items 10
 
 set show-directories true
@@ -160,13 +150,11 @@ set show-hidden true
 
 # do not suggest recent files
 set show-recent 0
-# }}}
 
 set incremental-search true
 # }}}
 # }}}
 
-# a less error-prone way of quitting
 unmap [normal] q
 map [normal] <C-q> quit
 
