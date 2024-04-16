@@ -118,8 +118,8 @@ set database "null"
 # }}}
 
 # clipboard {{{
-# copy to "primary" to avoid mangling "clipboard"
-set selection-clipboard primary
+# copy to (ctrl-v NOT mouse-middle) clipboard
+set selection-clipboard clipboard
 
 # do not display a notification
 set selection-notification false
